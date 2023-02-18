@@ -1,0 +1,3 @@
+for i,v in pairs(game.Players:GetPlayers()) do
+Instance.new("Smoke", v.Character.Torso)
+end
